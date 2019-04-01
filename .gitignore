@@ -2,3 +2,5 @@
 !.java
 !LICENSE
 !README.md
+.idea/*
+algorithm.iml
