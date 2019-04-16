@@ -59,7 +59,8 @@ public class LC112 {
         }
         return leftHasPathSum ? leftHasPathSum : rightHasPathSum;
     }
-    
+
+
 
     public static void main(String[] args) {
         TreeNode root = new TreeNode(-2);
