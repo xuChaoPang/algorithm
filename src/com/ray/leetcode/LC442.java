@@ -17,7 +17,7 @@ public class LC442 {
     /*
      * 利用原来的数组来保存 对应的数是否已存在（或者已遍历过）
      * 但同时不能影响原来数组对应位置的数的记录
-     * 所以直接将数组对应位置的数 变为负数（*1）记录即可，取值的时候直接去绝对值
+     * 所以直接将数组对应位置的数 变为负数（*-1）记录即可，取值的时候直接取绝对值
      */
     public List<Integer> findDuplicates(int[] nums) {
         List<Integer> rs = new ArrayList<Integer>();
